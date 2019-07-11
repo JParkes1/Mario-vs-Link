@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html id="html">
+    <head>
+        <title>Mario VS Link</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Press+Start+2P&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bad+Script&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <!-- Title -->
+        <h1>Structured Programming <span id=hidden>1</span></h1>
+        <h3>Module Exam</h3>
+        <hr>
+
+        <!-- Mario vs Link Style Section -->
+        <h3>Meet the Heroes</h3>
+        <p><button id="mario-btn">Mario</button>or<button id="link-btn">Link</button></p>
+        <center><img id="Main-img" src="images/mario-vs-link.jpg"></center>
+
+        <ul>
+            <li>Hero of: <span id="1-bul">-----</span></li>
+            <li>Love interest: <span id="2-bul">-----</span></li>
+            <li>Nemesis: <span id="3-bul">-----</span></li>
+        </ul>
+        
+        <hr>
+
+        <!-- Mario vs Link Variables Section -->
+        <!-- Attack and Defense Calculators -->
+        <h3>Calculating the Hero Attack Values</h3>
+        <center>
+            <table>
+                    <tr>
+                        <td>Mario's Strength: <input id="M-str"></td>
+                        <td>Link's Strength: <input id="L-str"></td>
+                    </tr>
+                    <tr>
+                        <td>Mario's Defense: <input id="M-def"></td>
+                        <td>Link's Defense: <input id="L-def"></td>
+                    </tr>
+                    <tr>
+                        <td>Mario's Attack Value: <span id="M-Value">------</span></td>
+                        <td>Link's Attack Value: <span id="L-Value">------</span></td>
+                    </tr>
+                </table>
+        </center>
+        <p><button id="calc-btn">Calculate Attack</button></p>
+        <hr>
+
+        <!-- The Battle -->
+        <h3>The Battle Royale</h3>
+        <p>Set the scene and choose the following...</p>
+        <ul>
+            <li>Something a plumber uses: <input id="Box-1" type="text"> </li>
+            <li>A knight's go-to item: <input id="Box-2" type="text"></li>
+            <li>An exclamation: <input id="Box-3" type="text"></li>
+        </ul>
+        <p><button id="battle-btn">Start the Battle</button></p>
+        <p id="Text-Battle">Mario lunged at Link and prepared his <span id="Box1">---</span> for an attack of <span id="Box2">---</span> , but Link was too quick. Link unsheathed his <span id="Box3">---</span> and struck Mario First! Mario took <span id="Box4">---</span> damage. Mario let out a loud <span id="Box5">---</span> and collapsed to the ground.</p>
+
+        <script src='main.js'></script>
+    </body>
+</html>
